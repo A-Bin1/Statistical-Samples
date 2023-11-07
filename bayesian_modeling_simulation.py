@@ -4,11 +4,10 @@
 
 url = 'https://raw.githubusercontent.com/A-Bin1/Statistical-Samples/main/2019_OR_cty_car_crash_data.csv'
 
-df = pd.read_csv(url)
-
 import pandas as pd
 import numpy as np
 df = pd.read_csv(url)
+df = df.dropna()
 #calculate raw probabilities for sections below:
 
 #calculate percent of fatal crashes per county

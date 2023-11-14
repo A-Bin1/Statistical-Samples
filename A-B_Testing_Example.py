@@ -91,7 +91,7 @@ plt.show()
 
 #Means for both groups appear skewed (not normally distributed). However, our sample sizes are
 #45,000 per group, indicating sufficiently large samples. Due to the Central Limit Theorem,
-#we can assume these groups are normal based on the sampling distribution of the mean 
+#we can assume these groups are normal based on the sampling distributions of the means
 #fitting a normal distribution.
 
 #Perform a two sample t test (independent t test) for both groups (Control and Test Groups)

@@ -9,7 +9,7 @@ url = 'https://raw.githubusercontent.com/A-Bin1/Statistical-Samples/main/random_
 weather_df = pd.read_csv(url)
 
 
-#weather_df = pd.read_csv('C:/Users/alexa/Statistical_Samples/random_forest_modeling_dataset_weather.csv')
+
 weather_df.head(5)
 #        STATION          NAME      DATE  TMAX  TMIN  WDFG  WSFG
 # 0  SPW00013025  ROTA NAS, SP  1/1/1970    56    43   270  11.4

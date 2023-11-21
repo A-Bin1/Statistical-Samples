@@ -68,7 +68,6 @@ features_arr = np.array(features_df)
 from sklearn.model_selection import train_test_split
 train_features, test_features, train_labels, test_labels = train_test_split(features_arr, labels, test_size = 0.25, random_state = 42)
 
-
 # Baseline predictions: experiement with given features
 def calc_baseline_error(predictor):
     baseline_preds = test_features[:, feature_list.index(predictor)]
